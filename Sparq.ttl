@@ -13,4 +13,4 @@ voc:child voc:name "Bob";
           voc:child voc:user .
 voc:child voc:name "Alex";
           voc:child voc:user .
-voc:user voc:name "User".
+voc:user voc:name "Andrews".
