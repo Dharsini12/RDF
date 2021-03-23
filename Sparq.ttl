@@ -1,7 +1,7 @@
-@prefix voc: <https://www.vocabulary.com/dictionary> .
-voc:User voc:Children "Alex", "Bob" ;
-voc:Spouse "Amy" ;
+@prefix voc: <http://www.vocabulary.com/dictionary> .
+voc:user voc:Children "Alex", "Bob" ;
+voc:spouse "Amy" ;
 voc:birthplace "New York" ;
 voc:born "November 17 1991" ;
-voc:Profession "Software Engineer" ;
-voc:History "Microsoft" .
+voc:profession "Software Engineer" ;
+voc:history "Microsoft" .
