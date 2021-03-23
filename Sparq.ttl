@@ -4,4 +4,4 @@ voc:spouse "Amy" ;
 voc:birthplace "New York" ;
 voc:born "November 17 1991" ;
 voc:profession "Software Engineer" ;
-voc:history "Microsoft" .
+voc:history "Microsoft".
