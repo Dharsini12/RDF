@@ -1,4 +1,4 @@
-@prefix voc: <http://www.vocabulary.com/dictionary> .
+@prefix voc:<http://www.vocabulary.com/dictionary> .
 voc:user voc:Children "Alex", "Bob" ;
 voc:spouse "Amy" ;
 voc:birthplace "New York" ;
