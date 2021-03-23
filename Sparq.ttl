@@ -1,7 +1,16 @@
 @prefix voc:<http://www.vocabulary.com/dictionary> .
-voc:user voc:Children "Alex", "Bob" ;
-voc:spouse "Amy" ;
-voc:birthplace "New York" ;
-voc:born "November 17 1991" ;
-voc:profession "Software Engineer" ;
-voc:history "Microsoft" .
+voc:spouse voc:name "Amy" ;
+              voc:spouse voc:user .
+voc:birthplace voc:name "New York" ;
+               voc:birthplace voc:user .
+voc:born voc:name "November 17 1991";
+              voc:born voc:user .
+voc:profession voc:name "Software Engineer" ;
+              voc:profession voc:user .
+voc:history voc:name "Microsoft";
+            voc:history voc:user .
+voc:child voc:name "Bob";
+          voc:child voc:user .
+voc:child voc:name "Alex";
+          voc:child voc:user .
+voc:user voc:name "User".
